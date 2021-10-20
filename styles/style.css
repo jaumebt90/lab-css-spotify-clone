@@ -6,3 +6,27 @@ Green: #00B172
 White: #FFF
 
 */
+.head {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 110px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.botones {
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.botones a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
