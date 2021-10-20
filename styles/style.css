@@ -30,3 +30,55 @@ White: #FFF
   color: black;
   margin-right: 10px;
 }
+
+/* .party {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+} */
+
+.text-image {
+  background-image: url(/images/landing.jpeg);
+  background-size: 100%;
+  color: white;
+  text-align: center;
+}
+
+.middle-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.middle img {
+  height: 100px;
+  width: 100px;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.green {
+  background-color: #00b172;
+  display: flex;
+  justify-content: space-around;
+}
+
+.song {
+  height: 200px;
+  width: 200px;
+}
+
+.white-logo {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.text-green {
+  color: white;
+}
