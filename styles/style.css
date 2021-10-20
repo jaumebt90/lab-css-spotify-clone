@@ -55,21 +55,27 @@ White: #FFF
   width: 100px;
 }
 
+.middle h3 {
+  color: #00b172;
+}
+
 .middle {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 100px;
+  text-align: center;
 }
 
 .green {
   background-color: #00b172;
   display: flex;
   justify-content: space-around;
+  margin-top: 50px;
 }
 
 .song {
-  height: 200px;
-  width: 200px;
+  height: 450px;
+  width: 300px;
 }
 
 .white-logo {
@@ -81,4 +87,18 @@ White: #FFF
 
 .text-green {
   color: white;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+.text-west {
+  margin-top: 50px;
+}
+
+.appdown {
+  margin-top: 60px;
+}
+
+.kanye {
+  text-decoration-line: underline;
 }
